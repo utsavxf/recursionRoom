@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <nav className="flex justify-between items-center px-7 py-3 border-b">
         <Link href={'/'}>
-            {/* <img className="h-10" src="/image (1).png" alt="" />
-             */}
-             <h2 className='bg-blue-100 font-bold font-serif'>Recursion Room</h2>
+            {/* <img className="h-10" src="/l1.png" alt="" /> */}
+            
+             <h2 className='text-xl font-bold font-italic'> <span className='text-green-600 text-4xl'>R</span>ecursion <span className='text-green-600 text-4xl'>R</span>oom</h2>
         </Link>
         <ul className="flex gap-6 items-center">
             <Link href={'/'}>
